@@ -1,0 +1,21 @@
+:root {
+  --color-primary: #18304f;
+  --color-secondary: #304a5b;
+  --color-accent: #2dd4bf;
+  --color-neutral-900: #121417;
+  --color-neutral-800: #1b2026;
+  --color-neutral-700: #2c333c;
+  --color-neutral-600: #3d4652;
+  --color-neutral-500: #68707c;
+  --color-neutral-300: #aeb6bf;
+  --color-neutral-100: #dfe4e7;
+  --color-soft-white: #eaeded;
+  --color-success: #2bb673;
+  --color-info: #2f80ed;
+  --color-warn: #f2c94c;
+  --color-danger: #eb5757;
+  --font-display: "Playfair Display";
+  --font-sans: "Inter";
+  --radius-card: 18px;
+  --radius-pill: 999px;
+}

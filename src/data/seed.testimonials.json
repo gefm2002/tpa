@@ -1,0 +1,50 @@
+[
+  {
+    "id": "tes-001",
+    "name": "Carla",
+    "text": "Fui sola y me recibieron genial. Ya tengo grupo para el próximo plan.",
+    "rating": 5,
+    "isActive": true,
+    "order": 1
+  },
+  {
+    "id": "tes-002",
+    "name": "Diego",
+    "text": "Todo organizado, la gente re piola. Me encantó el after office.",
+    "rating": 5,
+    "isActive": true,
+    "order": 2
+  },
+  {
+    "id": "tes-003",
+    "name": "Maru",
+    "text": "Plan diurno perfecto, relajado y con buena charla.",
+    "rating": 4,
+    "isActive": true,
+    "order": 3
+  },
+  {
+    "id": "tes-004",
+    "name": "Fede",
+    "text": "Volví a salir en grupo después de años. Recomendado.",
+    "rating": 5,
+    "isActive": true,
+    "order": 4
+  },
+  {
+    "id": "tes-005",
+    "name": "Ana",
+    "text": "Se siente comunidad real, no es algo frío.",
+    "rating": 5,
+    "isActive": true,
+    "order": 5
+  },
+  {
+    "id": "tes-006",
+    "name": "Leo",
+    "text": "Excelente para conocer gente sin presión.",
+    "rating": 4,
+    "isActive": true,
+    "order": 6
+  }
+]

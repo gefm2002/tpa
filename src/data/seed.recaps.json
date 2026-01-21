@@ -1,0 +1,68 @@
+[
+  {
+    "id": "rec-001",
+    "title": "Sunset en terraza",
+    "date": "2025-12-18",
+    "description": "Brindis, música suave y charla hasta la medianoche.",
+    "images": [
+      { "id": "rec-001-1", "dataUrl": "/images/stock/city-night.svg", "alt": "Sunset", "order": 1, "isCover": true }
+    ],
+    "isActive": true,
+    "order": 1
+  },
+  {
+    "id": "rec-002",
+    "title": "Brunch social",
+    "date": "2025-12-08",
+    "description": "Mesa larga, risas y planazo de domingo.",
+    "images": [
+      { "id": "rec-002-1", "dataUrl": "/images/stock/day-picnic.svg", "alt": "Brunch", "order": 1, "isCover": true }
+    ],
+    "isActive": true,
+    "order": 2
+  },
+  {
+    "id": "rec-003",
+    "title": "Noche de juegos",
+    "date": "2025-11-21",
+    "description": "Equipos mixtos y buena onda.",
+    "images": [
+      { "id": "rec-003-1", "dataUrl": "/images/stock/friends-bar.svg", "alt": "Juegos de mesa", "order": 1, "isCover": true }
+    ],
+    "isActive": true,
+    "order": 3
+  },
+  {
+    "id": "rec-004",
+    "title": "Bici por la costanera",
+    "date": "2025-11-05",
+    "description": "Mate, sol y plan diurno.",
+    "images": [
+      { "id": "rec-004-1", "dataUrl": "/images/stock/day-picnic.svg", "alt": "Bici", "order": 1, "isCover": true }
+    ],
+    "isActive": true,
+    "order": 4
+  },
+  {
+    "id": "rec-005",
+    "title": "Fogón nocturno",
+    "date": "2025-10-12",
+    "description": "Charla larga y comida rica.",
+    "images": [
+      { "id": "rec-005-1", "dataUrl": "/images/stock/night-out.svg", "alt": "Fogón", "order": 1, "isCover": true }
+    ],
+    "isActive": true,
+    "order": 5
+  },
+  {
+    "id": "rec-006",
+    "title": "Bowling social",
+    "date": "2025-09-28",
+    "description": "Equipos rotativos y espíritu relajado.",
+    "images": [
+      { "id": "rec-006-1", "dataUrl": "/images/stock/friends-bar.svg", "alt": "Bowling", "order": 1, "isCover": true }
+    ],
+    "isActive": true,
+    "order": 6
+  }
+]

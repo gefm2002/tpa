@@ -1,0 +1,58 @@
+[
+  {
+    "id": "faq-001",
+    "question": "¿Cómo me sumo a una salida?",
+    "answer": "Elegís un plan y nos escribís por WhatsApp. Te respondemos con toda la info.",
+    "isActive": true,
+    "order": 1
+  },
+  {
+    "id": "faq-002",
+    "question": "¿Las salidas son mixtas?",
+    "answer": "Sí, son mixtas y con buena onda. La idea es ampliar el círculo social.",
+    "isActive": true,
+    "order": 2
+  },
+  {
+    "id": "faq-003",
+    "question": "¿Hay eventos gratuitos?",
+    "answer": "Sí, cada tanto hacemos juntadas gratuitas. Lo avisamos en los eventos.",
+    "isActive": true,
+    "order": 3
+  },
+  {
+    "id": "faq-004",
+    "question": "¿Qué edades participan?",
+    "answer": "En general +35, pero podés consultar por cada salida.",
+    "isActive": true,
+    "order": 4
+  },
+  {
+    "id": "faq-005",
+    "question": "¿Cómo se paga una salida paga?",
+    "answer": "Te enviamos el link o alias por WhatsApp para reservar tu lugar.",
+    "isActive": true,
+    "order": 5
+  },
+  {
+    "id": "faq-006",
+    "question": "¿Puedo ir solo/a?",
+    "answer": "Sí, mucha gente viene sola y se integra rápido.",
+    "isActive": true,
+    "order": 6
+  },
+  {
+    "id": "faq-007",
+    "question": "¿Qué pasa si no puedo ir?",
+    "answer": "Avisanos con tiempo para liberar el cupo.",
+    "isActive": true,
+    "order": 7
+  },
+  {
+    "id": "faq-008",
+    "question": "¿Qué llevo a una salida diurna?",
+    "answer": "Algo cómodo, buena onda y ganas de compartir.",
+    "isActive": true,
+    "order": 8
+  }
+]
