@@ -3,10 +3,11 @@ import SectionTitle from "../components/SectionTitle";
 import Card from "../components/Card";
 import Button from "../components/Button";
 import useSnapshot from "../utils/useSnapshot";
-import { openWa } from "../utils/whatsapp";
+import { useWhatsAppLeadForm } from "../components/WhatsAppLeadForm";
 
 const Contact = () => {
   const { settings } = useSnapshot();
+  const { openForm } = useWhatsAppLeadForm();
 
   return (
     <Container className="py-10">
@@ -17,7 +18,7 @@ const Contact = () => {
           <p className="mt-2 text-lg font-semibold text-soft-white">
             {settings.whatsappNumber}
           </p>
-          <Button className="mt-4" onClick={() => openWa()}>
+          <Button className="mt-4" onClick={() => openForm()}>
             Escribinos
           </Button>
         </Card>

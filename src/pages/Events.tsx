@@ -53,7 +53,7 @@ const Events = () => {
     <Container className="py-10">
       <SectionTitle title="Próximas salidas" subtitle="Planes en CABA y alrededores" />
       <div className="mb-6 grid gap-4 md:grid-cols-4">
-        <Card>
+        <Card className="border border-white/10">
           <p className="text-sm font-semibold text-soft-white">Tipo</p>
           <div className="mt-3 flex flex-wrap gap-2">
             {["nocturna", "diurna", "escapada", "especial"].map((type) => (
@@ -71,7 +71,7 @@ const Events = () => {
             ))}
           </div>
         </Card>
-        <Card>
+        <Card className="border border-white/10">
           <p className="text-sm font-semibold text-soft-white">Gratuita / paga</p>
           <div className="mt-3 flex gap-2">
             {[
@@ -93,7 +93,7 @@ const Events = () => {
             ))}
           </div>
         </Card>
-        <Card>
+        <Card className="border border-white/10">
           <p className="text-sm font-semibold text-soft-white">Zona</p>
           <select
             className="mt-3 w-full rounded-full border border-white/20 bg-neutral-900 px-3 py-2 text-sm text-soft-white"
@@ -108,7 +108,7 @@ const Events = () => {
             ))}
           </select>
         </Card>
-        <Card>
+        <Card className="border border-white/10">
           <p className="text-sm font-semibold text-soft-white">Fecha</p>
           <button
             className={`mt-3 w-full rounded-full border px-3 py-2 text-sm ${

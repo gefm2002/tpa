@@ -21,13 +21,32 @@
     "capacity": 40,
     "ageMin": 35,
     "dressCode": "Smart casual",
-    "includes": ["Welcome drink", "Foto grupal"],
-    "agenda": ["20:30 Encuentro", "21:00 Brindis", "23:00 DJ set"],
+    "includes": [
+      "Welcome drink",
+      "Foto grupal"
+    ],
+    "agenda": [
+      "20:30 Encuentro",
+      "21:00 Brindis",
+      "23:00 DJ set"
+    ],
     "ctaLabel": "Quiero sumarme",
     "waMessage": "Hola, quiero sumarme al After Office en rooftop",
     "images": [
-      { "id": "img-evt-001-1", "dataUrl": "/images/stock/night-out.svg", "alt": "Rooftop de noche", "order": 1, "isCover": true },
-      { "id": "img-evt-001-2", "dataUrl": "/images/stock/friends-bar.svg", "alt": "Grupo brindando", "order": 2, "isCover": false }
+      {
+        "id": "img-evt-001-1",
+        "dataUrl": "/images/stock/hero-night.jpg",
+        "alt": "After Office en rooftop foto 1",
+        "order": 1,
+        "isCover": true
+      },
+      {
+        "id": "img-evt-001-2",
+        "dataUrl": "/images/stock/night-out.jpg",
+        "alt": "After Office en rooftop foto 2",
+        "order": 2,
+        "isCover": false
+      }
     ],
     "isActive": true,
     "order": 1,
@@ -54,10 +73,30 @@
     "directionsUrl": "https://maps.google.com/?q=Bosques+de+Palermo,CABA",
     "capacity": 50,
     "ageMin": 35,
-    "includes": ["Mateada", "Juegos livianos"],
-    "agenda": ["18:00 Encuentro", "18:30 Picnic", "19:30 Caminata"],
+    "includes": [
+      "Mateada",
+      "Juegos livianos"
+    ],
+    "agenda": [
+      "18:00 Encuentro",
+      "18:30 Picnic",
+      "19:30 Caminata"
+    ],
     "images": [
-      { "id": "img-evt-002-1", "dataUrl": "/images/stock/day-picnic.svg", "alt": "Picnic de tarde", "order": 1, "isCover": true }
+      {
+        "id": "img-evt-002-1",
+        "dataUrl": "/images/stock/friends-bar.jpg",
+        "alt": "Picnic atardecer en Bosques foto 1",
+        "order": 1,
+        "isCover": true
+      },
+      {
+        "id": "img-evt-002-2",
+        "dataUrl": "/images/stock/city-night.jpg",
+        "alt": "Picnic atardecer en Bosques foto 2",
+        "order": 2,
+        "isCover": false
+      }
     ],
     "isActive": true,
     "order": 2,
@@ -85,10 +124,28 @@
     "capacity": 35,
     "ageMin": 35,
     "dressCode": "Casual",
-    "includes": ["Mesa reservada"],
-    "agenda": ["21:00 Encuentro", "22:00 Música en vivo"],
+    "includes": [
+      "Mesa reservada"
+    ],
+    "agenda": [
+      "21:00 Encuentro",
+      "22:00 Música en vivo"
+    ],
     "images": [
-      { "id": "img-evt-003-1", "dataUrl": "/images/stock/friends-bar.svg", "alt": "Vermú con amigos", "order": 1, "isCover": true }
+      {
+        "id": "img-evt-003-1",
+        "dataUrl": "/images/stock/day-picnic.jpg",
+        "alt": "Vermú en San Telmo foto 1",
+        "order": 1,
+        "isCover": true
+      },
+      {
+        "id": "img-evt-003-2",
+        "dataUrl": "/images/stock/cheers.jpg",
+        "alt": "Vermú en San Telmo foto 2",
+        "order": 2,
+        "isCover": false
+      }
     ],
     "isActive": true,
     "order": 3,
@@ -116,10 +173,30 @@
     "capacity": 24,
     "ageMin": 35,
     "dressCode": "Elegante",
-    "includes": ["Cata guiada", "Tabla de quesos"],
-    "agenda": ["20:00 Bienvenida", "20:30 Cata", "22:00 Cierre"],
+    "includes": [
+      "Cata guiada",
+      "Tabla de quesos"
+    ],
+    "agenda": [
+      "20:00 Bienvenida",
+      "20:30 Cata",
+      "22:00 Cierre"
+    ],
     "images": [
-      { "id": "img-evt-004-1", "dataUrl": "/images/stock/night-out.svg", "alt": "Cata de vinos", "order": 1, "isCover": true }
+      {
+        "id": "img-evt-004-1",
+        "dataUrl": "/images/stock/group-night.jpg",
+        "alt": "Cata de vinos boutique foto 1",
+        "order": 1,
+        "isCover": true
+      },
+      {
+        "id": "img-evt-004-2",
+        "dataUrl": "/images/stock/restaurant-friends.jpg",
+        "alt": "Cata de vinos boutique foto 2",
+        "order": 2,
+        "isCover": false
+      }
     ],
     "isActive": true,
     "order": 4,
@@ -146,10 +223,29 @@
     "directionsUrl": "https://maps.google.com/?q=Costanera+Sur,CABA",
     "capacity": 45,
     "ageMin": 35,
-    "includes": ["Caminata grupal"],
-    "agenda": ["10:30 Encuentro", "11:00 Caminata", "12:00 Café"],
+    "includes": [
+      "Caminata grupal"
+    ],
+    "agenda": [
+      "10:30 Encuentro",
+      "11:00 Caminata",
+      "12:00 Café"
+    ],
     "images": [
-      { "id": "img-evt-005-1", "dataUrl": "/images/stock/day-picnic.svg", "alt": "Caminata costanera", "order": 1, "isCover": true }
+      {
+        "id": "img-evt-005-1",
+        "dataUrl": "/images/stock/escape-trip.jpg",
+        "alt": "Caminata costanera + café foto 1",
+        "order": 1,
+        "isCover": true
+      },
+      {
+        "id": "img-evt-005-2",
+        "dataUrl": "/images/stock/dinner-table.jpg",
+        "alt": "Caminata costanera + café foto 2",
+        "order": 2,
+        "isCover": false
+      }
     ],
     "isActive": true,
     "order": 5,
@@ -177,10 +273,30 @@
     "capacity": 30,
     "ageMin": 35,
     "dressCode": "Elegante casual",
-    "includes": ["Cena", "Show en vivo"],
-    "agenda": ["21:30 Encuentro", "22:00 Cena", "23:00 Show"],
+    "includes": [
+      "Cena",
+      "Show en vivo"
+    ],
+    "agenda": [
+      "21:30 Encuentro",
+      "22:00 Cena",
+      "23:00 Show"
+    ],
     "images": [
-      { "id": "img-evt-006-1", "dataUrl": "/images/stock/city-night.svg", "alt": "Noche con jazz", "order": 1, "isCover": true }
+      {
+        "id": "img-evt-006-1",
+        "dataUrl": "/images/stock/cocktails.jpg",
+        "alt": "Cena y jazz en vivo foto 1",
+        "order": 1,
+        "isCover": true
+      },
+      {
+        "id": "img-evt-006-2",
+        "dataUrl": "/images/stock/city-walk.jpg",
+        "alt": "Cena y jazz en vivo foto 2",
+        "order": 2,
+        "isCover": false
+      }
     ],
     "isActive": true,
     "order": 6,
@@ -208,10 +324,31 @@
     "directionsUrl": "https://maps.google.com/?q=Retiro,CABA",
     "capacity": 28,
     "ageMin": 35,
-    "includes": ["Coordinación", "Recorrido"],
-    "agenda": ["09:00 Encuentro", "10:00 Viaje", "12:00 Paseo", "18:00 Regreso"],
+    "includes": [
+      "Coordinación",
+      "Recorrido"
+    ],
+    "agenda": [
+      "09:00 Encuentro",
+      "10:00 Viaje",
+      "12:00 Paseo",
+      "18:00 Regreso"
+    ],
     "images": [
-      { "id": "img-evt-007-1", "dataUrl": "/images/stock/day-picnic.svg", "alt": "Escapada a Tigre", "order": 1, "isCover": true }
+      {
+        "id": "img-evt-007-1",
+        "dataUrl": "/images/stock/bar-friends.jpg",
+        "alt": "Escapada de día a Tigre foto 1",
+        "order": 1,
+        "isCover": true
+      },
+      {
+        "id": "img-evt-007-2",
+        "dataUrl": "/images/stock/picnic-park.jpg",
+        "alt": "Escapada de día a Tigre foto 2",
+        "order": 2,
+        "isCover": false
+      }
     ],
     "isActive": true,
     "order": 7,
@@ -240,10 +377,29 @@
     "capacity": 60,
     "ageMin": 35,
     "dressCode": "Retro / divertido",
-    "includes": ["Entrada", "Guardarropa"],
-    "agenda": ["23:00 Encuentro", "00:00 Apertura pista"],
+    "includes": [
+      "Entrada",
+      "Guardarropa"
+    ],
+    "agenda": [
+      "23:00 Encuentro",
+      "00:00 Apertura pista"
+    ],
     "images": [
-      { "id": "img-evt-008-1", "dataUrl": "/images/stock/night-out.svg", "alt": "Boliche retro", "order": 1, "isCover": true }
+      {
+        "id": "img-evt-008-1",
+        "dataUrl": "/images/stock/travel-bus.jpg",
+        "alt": "Noche de boliche retro foto 1",
+        "order": 1,
+        "isCover": true
+      },
+      {
+        "id": "img-evt-008-2",
+        "dataUrl": "/images/stock/hero-night.jpg",
+        "alt": "Noche de boliche retro foto 2",
+        "order": 2,
+        "isCover": false
+      }
     ],
     "isActive": true,
     "order": 8,
@@ -269,7 +425,20 @@
     "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13136.008802305005!2d-58.45229!3d-34.56355!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb400!2sBelgrano%2C%20CABA!5e0!3m2!1ses-419!2sar!4v1700000000007",
     "directionsUrl": "https://maps.google.com/?q=Belgrano,CABA",
     "images": [
-      { "id": "img-evt-009-1", "dataUrl": "/images/stock/city-night.svg", "alt": "Sunset en terraza", "order": 1, "isCover": true }
+      {
+        "id": "img-evt-009-1",
+        "dataUrl": "/images/stock/night-out.jpg",
+        "alt": "Sunset en terraza foto 1",
+        "order": 1,
+        "isCover": true
+      },
+      {
+        "id": "img-evt-009-2",
+        "dataUrl": "/images/stock/friends-bar.jpg",
+        "alt": "Sunset en terraza foto 2",
+        "order": 2,
+        "isCover": false
+      }
     ],
     "isActive": true,
     "order": 9,
@@ -295,7 +464,20 @@
     "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13135.158802305005!2d-58.43729!3d-34.58955!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccaa1b2bd5b6d%3A0x3e2c3a3!2sPalermo%2C%20CABA!5e0!3m2!1ses-419!2sar!4v1700000000008",
     "directionsUrl": "https://maps.google.com/?q=Palermo,CABA",
     "images": [
-      { "id": "img-evt-010-1", "dataUrl": "/images/stock/day-picnic.svg", "alt": "Brunch", "order": 1, "isCover": true }
+      {
+        "id": "img-evt-010-1",
+        "dataUrl": "/images/stock/city-night.jpg",
+        "alt": "Brunch social foto 1",
+        "order": 1,
+        "isCover": true
+      },
+      {
+        "id": "img-evt-010-2",
+        "dataUrl": "/images/stock/day-picnic.jpg",
+        "alt": "Brunch social foto 2",
+        "order": 2,
+        "isCover": false
+      }
     ],
     "isActive": true,
     "order": 10,
@@ -321,7 +503,20 @@
     "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13136.008802305005!2d-58.44229!3d-34.60355!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccb987!2sAlmagro%2C%20CABA!5e0!3m2!1ses-419!2sar!4v1700000000010",
     "directionsUrl": "https://maps.google.com/?q=Almagro,CABA",
     "images": [
-      { "id": "img-evt-011-1", "dataUrl": "/images/stock/friends-bar.svg", "alt": "Juegos de mesa", "order": 1, "isCover": true }
+      {
+        "id": "img-evt-011-1",
+        "dataUrl": "/images/stock/cheers.jpg",
+        "alt": "Noche de juegos de mesa foto 1",
+        "order": 1,
+        "isCover": true
+      },
+      {
+        "id": "img-evt-011-2",
+        "dataUrl": "/images/stock/group-night.jpg",
+        "alt": "Noche de juegos de mesa foto 2",
+        "order": 2,
+        "isCover": false
+      }
     ],
     "isActive": true,
     "order": 11,
@@ -347,7 +542,20 @@
     "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13136.008802305005!2d-58.36229!3d-34.60355!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccb980!2sCostanera%20Sur%2C%20CABA!5e0!3m2!1ses-419!2sar!4v1700000000011",
     "directionsUrl": "https://maps.google.com/?q=Costanera+Sur,CABA",
     "images": [
-      { "id": "img-evt-012-1", "dataUrl": "/images/stock/day-picnic.svg", "alt": "Bici en costanera", "order": 1, "isCover": true }
+      {
+        "id": "img-evt-012-1",
+        "dataUrl": "/images/stock/restaurant-friends.jpg",
+        "alt": "Bici + mate en Costanera foto 1",
+        "order": 1,
+        "isCover": true
+      },
+      {
+        "id": "img-evt-012-2",
+        "dataUrl": "/images/stock/escape-trip.jpg",
+        "alt": "Bici + mate en Costanera foto 2",
+        "order": 2,
+        "isCover": false
+      }
     ],
     "isActive": true,
     "order": 12,
@@ -373,7 +581,20 @@
     "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13136.008802305005!2d-58.48229!3d-34.57355!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccb333!2sVilla%20Urquiza%2C%20CABA!5e0!3m2!1ses-419!2sar!4v1700000000012",
     "directionsUrl": "https://maps.google.com/?q=Villa+Urquiza,CABA",
     "images": [
-      { "id": "img-evt-013-1", "dataUrl": "/images/stock/city-night.svg", "alt": "Fogón nocturno", "order": 1, "isCover": true }
+      {
+        "id": "img-evt-013-1",
+        "dataUrl": "/images/stock/dinner-table.jpg",
+        "alt": "Fogón nocturno foto 1",
+        "order": 1,
+        "isCover": true
+      },
+      {
+        "id": "img-evt-013-2",
+        "dataUrl": "/images/stock/cocktails.jpg",
+        "alt": "Fogón nocturno foto 2",
+        "order": 2,
+        "isCover": false
+      }
     ],
     "isActive": true,
     "order": 13,
@@ -399,7 +620,20 @@
     "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13136.008802305005!2d-58.48229!3d-34.61355!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccb444!2sFlores%2C%20CABA!5e0!3m2!1ses-419!2sar!4v1700000000013",
     "directionsUrl": "https://maps.google.com/?q=Flores,CABA",
     "images": [
-      { "id": "img-evt-014-1", "dataUrl": "/images/stock/friends-bar.svg", "alt": "Bowling", "order": 1, "isCover": true }
+      {
+        "id": "img-evt-014-1",
+        "dataUrl": "/images/stock/city-walk.jpg",
+        "alt": "Tarde de bowling foto 1",
+        "order": 1,
+        "isCover": true
+      },
+      {
+        "id": "img-evt-014-2",
+        "dataUrl": "/images/stock/bar-friends.jpg",
+        "alt": "Tarde de bowling foto 2",
+        "order": 2,
+        "isCover": false
+      }
     ],
     "isActive": true,
     "order": 14,

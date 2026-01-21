@@ -2,7 +2,7 @@ import { NavLink, Link } from "react-router-dom";
 import { useState } from "react";
 import { getSnapshot } from "../utils/storage";
 import Button from "./Button";
-import { openWa } from "../utils/whatsapp";
+import { useWhatsAppLeadForm } from "./WhatsAppLeadForm";
 
 const Header = () => {
   const [open, setOpen] = useState(false);
@@ -16,11 +16,15 @@ const Header = () => {
     { label: "Contacto", to: "/contacto" },
   ];
 
+  const { openForm } = useWhatsAppLeadForm();
+
   return (
-    <header className="sticky top-0 z-40 border-b border-white/10 bg-neutral-900/95 backdrop-blur">
+    <header className="sticky top-0 z-40 border-b border-white/10 bg-neutral-900/80 backdrop-blur-xl">
       <div className="container flex items-center justify-between py-4">
         <Link to="/" className="flex items-center gap-3">
-          <img src="/images/logo.png" alt={settings.communityName} className="h-10 w-10 rounded-full" />
+          <div className="rounded-full border border-white/15 p-1">
+            <img src="/images/logo.png" alt={settings.communityName} className="h-10 w-10 rounded-full" />
+          </div>
           <div>
             <p className="text-sm font-semibold text-soft-white">{settings.communityName}</p>
             <p className="text-xs text-neutral-300">{settings.zonesText}</p>
@@ -40,7 +44,7 @@ const Header = () => {
           ))}
         </nav>
         <div className="hidden md:block">
-          <Button variant="primary" onClick={() => openWa()}>
+          <Button variant="primary" onClick={() => openForm()}>
             Escribinos
           </Button>
         </div>
@@ -68,7 +72,7 @@ const Header = () => {
                 {item.label}
               </NavLink>
             ))}
-            <Button variant="primary" className="w-full" onClick={() => openWa()}>
+            <Button variant="primary" className="w-full" onClick={() => openForm()}>
               Escribinos
             </Button>
           </div>

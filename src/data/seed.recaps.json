@@ -5,7 +5,34 @@
     "date": "2025-12-18",
     "description": "Brindis, música suave y charla hasta la medianoche.",
     "images": [
-      { "id": "rec-001-1", "dataUrl": "/images/stock/city-night.svg", "alt": "Sunset", "order": 1, "isCover": true }
+      {
+        "id": "img-rec-001-1",
+        "dataUrl": "/images/stock/hero-night.jpg",
+        "alt": "Sunset en terraza foto 1",
+        "order": 1,
+        "isCover": true
+      },
+      {
+        "id": "img-rec-001-2",
+        "dataUrl": "/images/stock/night-out.jpg",
+        "alt": "Sunset en terraza foto 2",
+        "order": 2,
+        "isCover": false
+      },
+      {
+        "id": "img-rec-001-3",
+        "dataUrl": "/images/stock/friends-bar.jpg",
+        "alt": "Sunset en terraza foto 3",
+        "order": 3,
+        "isCover": false
+      },
+      {
+        "id": "img-rec-001-4",
+        "dataUrl": "/images/stock/city-night.jpg",
+        "alt": "Sunset en terraza foto 4",
+        "order": 4,
+        "isCover": false
+      }
     ],
     "isActive": true,
     "order": 1
@@ -16,7 +43,34 @@
     "date": "2025-12-08",
     "description": "Mesa larga, risas y planazo de domingo.",
     "images": [
-      { "id": "rec-002-1", "dataUrl": "/images/stock/day-picnic.svg", "alt": "Brunch", "order": 1, "isCover": true }
+      {
+        "id": "img-rec-002-1",
+        "dataUrl": "/images/stock/day-picnic.jpg",
+        "alt": "Brunch social foto 1",
+        "order": 1,
+        "isCover": true
+      },
+      {
+        "id": "img-rec-002-2",
+        "dataUrl": "/images/stock/cheers.jpg",
+        "alt": "Brunch social foto 2",
+        "order": 2,
+        "isCover": false
+      },
+      {
+        "id": "img-rec-002-3",
+        "dataUrl": "/images/stock/group-night.jpg",
+        "alt": "Brunch social foto 3",
+        "order": 3,
+        "isCover": false
+      },
+      {
+        "id": "img-rec-002-4",
+        "dataUrl": "/images/stock/restaurant-friends.jpg",
+        "alt": "Brunch social foto 4",
+        "order": 4,
+        "isCover": false
+      }
     ],
     "isActive": true,
     "order": 2
@@ -27,7 +81,34 @@
     "date": "2025-11-21",
     "description": "Equipos mixtos y buena onda.",
     "images": [
-      { "id": "rec-003-1", "dataUrl": "/images/stock/friends-bar.svg", "alt": "Juegos de mesa", "order": 1, "isCover": true }
+      {
+        "id": "img-rec-003-1",
+        "dataUrl": "/images/stock/escape-trip.jpg",
+        "alt": "Noche de juegos foto 1",
+        "order": 1,
+        "isCover": true
+      },
+      {
+        "id": "img-rec-003-2",
+        "dataUrl": "/images/stock/dinner-table.jpg",
+        "alt": "Noche de juegos foto 2",
+        "order": 2,
+        "isCover": false
+      },
+      {
+        "id": "img-rec-003-3",
+        "dataUrl": "/images/stock/cocktails.jpg",
+        "alt": "Noche de juegos foto 3",
+        "order": 3,
+        "isCover": false
+      },
+      {
+        "id": "img-rec-003-4",
+        "dataUrl": "/images/stock/city-walk.jpg",
+        "alt": "Noche de juegos foto 4",
+        "order": 4,
+        "isCover": false
+      }
     ],
     "isActive": true,
     "order": 3
@@ -38,7 +119,34 @@
     "date": "2025-11-05",
     "description": "Mate, sol y plan diurno.",
     "images": [
-      { "id": "rec-004-1", "dataUrl": "/images/stock/day-picnic.svg", "alt": "Bici", "order": 1, "isCover": true }
+      {
+        "id": "img-rec-004-1",
+        "dataUrl": "/images/stock/bar-friends.jpg",
+        "alt": "Bici por la costanera foto 1",
+        "order": 1,
+        "isCover": true
+      },
+      {
+        "id": "img-rec-004-2",
+        "dataUrl": "/images/stock/picnic-park.jpg",
+        "alt": "Bici por la costanera foto 2",
+        "order": 2,
+        "isCover": false
+      },
+      {
+        "id": "img-rec-004-3",
+        "dataUrl": "/images/stock/travel-bus.jpg",
+        "alt": "Bici por la costanera foto 3",
+        "order": 3,
+        "isCover": false
+      },
+      {
+        "id": "img-rec-004-4",
+        "dataUrl": "/images/stock/hero-night.jpg",
+        "alt": "Bici por la costanera foto 4",
+        "order": 4,
+        "isCover": false
+      }
     ],
     "isActive": true,
     "order": 4
@@ -49,7 +157,34 @@
     "date": "2025-10-12",
     "description": "Charla larga y comida rica.",
     "images": [
-      { "id": "rec-005-1", "dataUrl": "/images/stock/night-out.svg", "alt": "Fogón", "order": 1, "isCover": true }
+      {
+        "id": "img-rec-005-1",
+        "dataUrl": "/images/stock/night-out.jpg",
+        "alt": "Fogón nocturno foto 1",
+        "order": 1,
+        "isCover": true
+      },
+      {
+        "id": "img-rec-005-2",
+        "dataUrl": "/images/stock/friends-bar.jpg",
+        "alt": "Fogón nocturno foto 2",
+        "order": 2,
+        "isCover": false
+      },
+      {
+        "id": "img-rec-005-3",
+        "dataUrl": "/images/stock/city-night.jpg",
+        "alt": "Fogón nocturno foto 3",
+        "order": 3,
+        "isCover": false
+      },
+      {
+        "id": "img-rec-005-4",
+        "dataUrl": "/images/stock/day-picnic.jpg",
+        "alt": "Fogón nocturno foto 4",
+        "order": 4,
+        "isCover": false
+      }
     ],
     "isActive": true,
     "order": 5
@@ -60,7 +195,34 @@
     "date": "2025-09-28",
     "description": "Equipos rotativos y espíritu relajado.",
     "images": [
-      { "id": "rec-006-1", "dataUrl": "/images/stock/friends-bar.svg", "alt": "Bowling", "order": 1, "isCover": true }
+      {
+        "id": "img-rec-006-1",
+        "dataUrl": "/images/stock/cheers.jpg",
+        "alt": "Bowling social foto 1",
+        "order": 1,
+        "isCover": true
+      },
+      {
+        "id": "img-rec-006-2",
+        "dataUrl": "/images/stock/group-night.jpg",
+        "alt": "Bowling social foto 2",
+        "order": 2,
+        "isCover": false
+      },
+      {
+        "id": "img-rec-006-3",
+        "dataUrl": "/images/stock/restaurant-friends.jpg",
+        "alt": "Bowling social foto 3",
+        "order": 3,
+        "isCover": false
+      },
+      {
+        "id": "img-rec-006-4",
+        "dataUrl": "/images/stock/escape-trip.jpg",
+        "alt": "Bowling social foto 4",
+        "order": 4,
+        "isCover": false
+      }
     ],
     "isActive": true,
     "order": 6

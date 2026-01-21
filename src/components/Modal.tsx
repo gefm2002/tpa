@@ -12,7 +12,7 @@ const Modal = ({ isOpen, onClose, title, children }: ModalProps) => {
 
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/70 p-4">
-      <div className="glass-card w-full max-w-2xl p-6">
+      <div className="glass-card flex max-h-[90vh] w-full max-w-2xl flex-col overflow-hidden p-6">
         <div className="mb-4 flex items-center justify-between">
           <h3 className="text-lg font-semibold text-soft-white">{title}</h3>
           <button
@@ -23,7 +23,7 @@ const Modal = ({ isOpen, onClose, title, children }: ModalProps) => {
             ✕
           </button>
         </div>
-        {children}
+        <div className="min-h-0 flex-1 overflow-y-auto pr-1">{children}</div>
       </div>
     </div>
   );

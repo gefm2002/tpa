@@ -5,7 +5,7 @@ const Footer = () => {
   const { settings } = getSnapshot();
 
   return (
-    <footer className="border-t border-white/10 bg-neutral-900 py-10">
+    <footer className="border-t border-white/10 bg-neutral-900/90 py-12">
       <div className="container grid gap-8 md:grid-cols-4">
         <div>
           <p className="text-lg font-semibold text-soft-white">{settings.communityName}</p>

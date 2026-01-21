@@ -6,8 +6,8 @@ interface SectionTitleProps {
 
 const SectionTitle = ({ title, subtitle, align = "left" }: SectionTitleProps) => (
   <div className={`mb-6 ${align === "center" ? "text-center" : "text-left"}`}>
-    <p className="text-sm uppercase tracking-[0.2em] text-accent/80">{subtitle}</p>
-    <h2 className="mt-2 text-2xl font-semibold text-soft-white md:text-3xl">
+    <p className="text-xs uppercase tracking-[0.3em] text-accent/80">{subtitle}</p>
+    <h2 className="mt-3 text-2xl font-semibold text-soft-white md:text-4xl">
       {title}
     </h2>
   </div>

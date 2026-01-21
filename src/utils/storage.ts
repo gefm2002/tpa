@@ -5,7 +5,7 @@ import testimonialsSeed from "../data/seed.testimonials.json";
 import settingsSeed from "../data/settings.json";
 import type { Snapshot } from "../types";
 
-const STORAGE_KEY = "tpa_snapshot_v1";
+const STORAGE_KEY = "tpa_snapshot_v2";
 
 export const notifySnapshotUpdate = () => {
   if (typeof window === "undefined") return;

@@ -6,11 +6,12 @@ import MapEmbed from "../components/MapEmbed";
 import Card from "../components/Card";
 import useSnapshot from "../utils/useSnapshot";
 import { formatDate, formatPrice } from "../utils/format";
-import { openWa } from "../utils/whatsapp";
+import { useWhatsAppLeadForm } from "../components/WhatsAppLeadForm";
 
 const EventDetail = () => {
   const { slug } = useParams();
   const { events, settings } = useSnapshot();
+  const { openForm } = useWhatsAppLeadForm();
   const event = events.find((item) => item.slug === slug);
 
   if (!event) {
@@ -32,10 +33,11 @@ const EventDetail = () => {
     <Container className="py-10">
       <div className="grid gap-8 lg:grid-cols-[1.2fr_1fr]">
         <div className="space-y-6">
-          <div className="overflow-hidden rounded-3xl border border-white/10">
+          <div className="relative overflow-hidden rounded-3xl border border-white/10">
             {cover && (
-              <img src={cover.dataUrl} alt={cover.alt} className="h-72 w-full object-cover" />
+              <img src={cover.dataUrl} alt={cover.alt} className="h-80 w-full object-cover" />
             )}
+            <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-black/10 to-transparent" />
           </div>
           <div className="flex flex-wrap gap-2">
             <Badge variant="accent">{event.type}</Badge>
@@ -63,7 +65,7 @@ const EventDetail = () => {
             <div className="mt-4 flex flex-wrap gap-3">
               <Button
                 onClick={() =>
-                  openWa(
+                  openForm(
                     event.waMessage ??
                       `Hola, quiero sumarme a ${event.title} el ${event.date} a las ${event.time}.`
                   )
@@ -124,7 +126,7 @@ const EventDetail = () => {
             <Button
               className="mt-4"
               onClick={() =>
-                openWa(
+                openForm(
                   event.waMessage ??
                     `Hola, quiero sumarme a ${event.title} el ${event.date} a las ${event.time}.`
                 )

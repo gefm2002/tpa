@@ -7,10 +7,11 @@ import EventCard from "../components/EventCard";
 import GalleryGrid from "../components/GalleryGrid";
 import Card from "../components/Card";
 import useSnapshot from "../utils/useSnapshot";
-import { openWa } from "../utils/whatsapp";
+import { useWhatsAppLeadForm } from "../components/WhatsAppLeadForm";
 
 const Home = () => {
   const { events, recaps, faqs, testimonials, settings } = useSnapshot();
+  const { openForm } = useWhatsAppLeadForm();
 
   const upcoming = events
     .filter((event) => event.status === "upcoming" && event.isActive)
@@ -23,37 +24,40 @@ const Home = () => {
     .flatMap((recap) => recap.images);
 
   return (
-    <div className="space-y-20 pb-20">
+    <div className="space-y-24 pb-24">
       <section className="relative overflow-hidden">
         <div className="absolute inset-0">
           <img
-            src="/images/stock/hero-night.svg"
+            src="/images/stock/hero-night.jpg"
             alt="Grupo saliendo de noche"
             className="h-full w-full object-cover"
           />
-          <div className="absolute inset-0 bg-black/70" />
+          <div className="absolute inset-0 bg-gradient-to-b from-black/70 via-black/40 to-black/80" />
         </div>
-        <Container className="relative z-10 py-20">
-          <div className="max-w-xl">
-            <p className="text-sm uppercase tracking-[0.2em] text-accent/80">
+        <Container className="relative z-10 py-24">
+          <div className="max-w-2xl">
+            <p className="text-xs uppercase tracking-[0.3em] text-accent/80">
               {settings.mentionText}
             </p>
-            <h1 className="mt-3 text-4xl font-semibold text-soft-white md:text-5xl">
+            <h1 className="mt-4 text-4xl font-semibold text-soft-white md:text-6xl">
               Salidas para conocer gente en CABA
             </h1>
-            <p className="mt-4 text-lg text-neutral-200">
+            <p className="mt-5 text-lg text-neutral-200 md:text-xl">
               Planes diurnos y nocturnos para ampliar tu círculo social.
             </p>
-            <div className="mt-5 flex flex-wrap gap-2">
+            <div className="mt-6 flex flex-wrap gap-2">
               {settings.ageRuleText && <Badge>+35</Badge>}
               <Badge>Mixtas</Badge>
               <Badge>{settings.zonesText}</Badge>
             </div>
-            <div className="mt-6 flex flex-wrap gap-3">
-              <Button variant="primary" onClick={() => openWa()}>
+            <div className="mt-7 flex flex-wrap gap-3">
+              <Button variant="primary" onClick={() => openForm()}>
                 Escribinos por WhatsApp
               </Button>
-              <Link to="/eventos" className="btn border border-white/20 text-soft-white">
+              <Link
+                to="/eventos"
+                className="btn border border-white/20 text-soft-white hover:border-accent/40 hover:text-accent"
+              >
                 Ver próximas salidas
               </Link>
             </div>
@@ -90,7 +94,7 @@ const Home = () => {
                 text: "Charlas con gente nueva y la pasás bien.",
               },
             ].map((item) => (
-              <Card key={item.title}>
+              <Card key={item.title} className="border border-white/10">
                 <h3 className="text-lg font-semibold text-soft-white">{item.title}</h3>
                 <p className="mt-2 text-sm text-neutral-300">{item.text}</p>
               </Card>
@@ -161,7 +165,7 @@ const Home = () => {
               <p className="mt-2 text-lg font-semibold text-soft-white">
                 {settings.whatsappNumber}
               </p>
-              <Button className="mt-4" onClick={() => openWa()}>
+              <Button className="mt-4" onClick={() => openForm()}>
                 Escribinos
               </Button>
             </Card>
