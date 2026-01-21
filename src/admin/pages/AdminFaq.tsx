@@ -52,7 +52,7 @@ const AdminFaq = () => {
   const handleSave = () => {
     const parsed = faqSchema.safeParse({ question: form.question, answer: form.answer });
     if (!parsed.success) {
-      setErrors(parsed.error.errors.map((error) => error.message));
+      setErrors(parsed.error.issues.map((issue) => issue.message));
       return;
     }
 

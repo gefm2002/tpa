@@ -13,7 +13,7 @@ const AdminSettings = () => {
   const handleSave = () => {
     const parsed = settingsSchema.safeParse(form);
     if (!parsed.success) {
-      setErrors(parsed.error.errors.map((error) => error.message));
+      setErrors(parsed.error.issues.map((issue) => issue.message));
       return;
     }
 

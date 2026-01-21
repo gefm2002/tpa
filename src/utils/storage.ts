@@ -3,7 +3,7 @@ import recapsSeed from "../data/seed.recaps.json";
 import faqsSeed from "../data/seed.faq.json";
 import testimonialsSeed from "../data/seed.testimonials.json";
 import settingsSeed from "../data/settings.json";
-import type { Snapshot } from "../types";
+import type { Snapshot, EventItem, RecapPost, FaqItem, Testimonial, Settings } from "../types";
 
 const STORAGE_KEY = "tpa_snapshot_v2";
 
@@ -13,11 +13,11 @@ export const notifySnapshotUpdate = () => {
 };
 
 export const buildSeedSnapshot = (): Snapshot => ({
-  events: eventsSeed,
-  recaps: recapsSeed,
-  faqs: faqsSeed,
-  testimonials: testimonialsSeed,
-  settings: settingsSeed,
+  events: eventsSeed as EventItem[],
+  recaps: recapsSeed as RecapPost[],
+  faqs: faqsSeed as FaqItem[],
+  testimonials: testimonialsSeed as Testimonial[],
+  settings: settingsSeed as Settings,
 });
 
 export const getSnapshot = (): Snapshot => {
